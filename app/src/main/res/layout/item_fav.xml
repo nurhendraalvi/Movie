@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemfav_cv"
+    android:orientation="vertical"
+    android:layout_width="390dp"
+    android:layout_height="230dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    app:layout_constraintCircleRadius="30dp"
+    android:background="@drawable/shape">
+
+
+    <ImageView
+        android:id="@+id/movieimgfav_iv"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="180dp"
+        android:layout_height="230dp"/>
+
+
+    <TextView
+        android:id="@+id/movietitlefav_tv"
+        android:text="Movie Title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="-180dp"
+        android:layout_marginStart="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/imgfav_str"
+        android:src="@drawable/star"
+        android:layout_marginStart="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/itemlistfav_tv_rate"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="-30dp"
+        android:text="10.0"/>
+
+    <ImageButton
+        android:id="@+id/lovefav"
+        android:src="@drawable/love2"
+        android:background="#ffffff"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="290dp"/>
+
+    <ImageButton
+        android:id="@+id/trash"
+        android:src="@drawable/trash"
+        android:background="#ffffff"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-43dp"
+        android:layout_marginStart="330dp"/>
+</LinearLayout>
